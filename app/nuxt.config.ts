@@ -25,9 +25,7 @@ export default defineNuxtConfig({
     }
   },
   runtimeConfig: {
-    public: {
-      NUXT_API_KEY: process.env.NUXT_API_KEY
-    }
+    NUXT_API_KEY: process.env.NUXT_API_KEY
   },
   modules: ['@nuxtjs/eslint-module', 'nuxt-vercel-analytics']
 })
