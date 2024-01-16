@@ -1,5 +1,4 @@
-import axios from 'axios'
-
+const axios = requie('axios')
 const apiWeather = async (value: string) => {
   try {
     const config = useRuntimeConfig()
