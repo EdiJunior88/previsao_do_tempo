@@ -5,16 +5,15 @@ import type { InterfaceIndex } from '@/interface/Interface'
 const weather = ref('')
 const results = ref<InterfaceIndex | null>(null)
 const loading = ref(false)
-const error = ref<InterfaceIndex | null>(null)
+const errorMessage = ref('')
 
-const fetchAddress = async () => {
+const fetchAPI = async () => {
   loading.value = true
-  error.value = null
   try {
     results.value = await apiWeather(weather.value)
     console.log(results.value)
-  } catch (err) {
-    error.value = err as any
+  } catch (error) {
+    errorMessage.value = 'Estado ou Cidade não encontrado, digite novamente!'
   } finally {
     loading.value = false
   }
@@ -23,10 +22,10 @@ const fetchAddress = async () => {
 
 <template>
   <div>
-    <input v-model="weather" type="text" placeholder="Digite o endereço" />
-    <button @click="fetchAddress">Buscar</button>
+    <input v-model="weather" type="text" placeholder="Estado ou Cidade" />
+    <button @click="fetchAPI">Buscar</button>
     <div v-if="loading">Carregando...</div>
-    <div v-if="error">Um erro ocorreu: {{ error.message }}</div>
+    <div v-if="errorMessage">{{ errorMessage }}</div>
     <ul v-if="results">
       <p>Cidade: {{ results.location.name }}</p>
       <p>Temperatura Atual: {{ results.current.temp_c }}º</p>
