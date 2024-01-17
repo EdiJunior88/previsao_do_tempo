@@ -58,6 +58,12 @@ const backgroundHour = () => {
 }
 
 backgroundHour()
+
+const clearResults = () => {
+  results.value = null
+  errorMessage.value = ''
+  inputTextCity.value = ''
+}
 </script>
 
 <template>
@@ -66,12 +72,12 @@ backgroundHour()
     class="w-full h-screen mx-auto flex flex-col justify-center items-center"
   >
     <div
-      :class="backgroundCard"
+      :class="[backgroundCard, textColorCard]"
       class="flex flex-col items-center justify-center gap-4 backdrop-blur-md py-8 px-16 rounded-xl"
     >
       <p class="font-bold font-['system-ui'] text-3xl mb-6">Previsão do Tempo</p>
 
-      <div class="flex gap-3 mb-6">
+      <div class="flex gap-2 mb-6">
         <input
           v-model="inputTextCity"
           v-focus
@@ -83,8 +89,16 @@ backgroundHour()
         <button
           @click="fetchAPI"
           class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
+          title="Pesquisar"
         >
           🔍
+        </button>
+        <button
+          @click="clearResults"
+          class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
+          title="Limpar"
+        >
+          ❌
         </button>
       </div>
 
