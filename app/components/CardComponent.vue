@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import apiWeather from '@/api/apiWeather'
 import type { InterfaceIndex } from '@/interface/Interface'
+import translate from '@/dictionary/Dictionary'
 import IconCity from '@/assets/svg/cidade2.svg'
 import IconTemperature from '@/assets/svg/temperatura.svg'
 import IconCloudCover from '@/assets/svg/cobertura-nuvens.svg'
@@ -10,6 +11,7 @@ import IconHumidity from '@/assets/svg/umidade.svg'
 import IconVisibility from '@/assets/svg/umidade2.svg'
 import IconWindSpeed from '@/assets/svg/velocidade-vento.svg'
 import IconUV from '@/assets/svg/uv.svg'
+import IconClock from '@/assets/svg/relogio.svg'
 
 const inputTextCity = ref('')
 const results = ref<InterfaceIndex | null>(null)
@@ -65,6 +67,16 @@ const clearResults = () => {
   errorMessage.value = ''
   inputTextCity.value = ''
 }
+
+const formatDateAndTime = (isoString: string) => {
+  const date = new Date(isoString)
+  const day = date.getDate().toString().padStart(2, '0')
+  const month = (date.getMonth() + 1).toString().padStart(2, '0') // Months are 0-indexed
+  const year = date.getFullYear()
+  const hours = date.getHours().toString().padStart(2, '0')
+  const minutes = date.getMinutes().toString().padStart(2, '0')
+  return `${day}/${month}/${year} ${hours}:${minutes}`
+}
 </script>
 
 <template>
@@ -84,20 +96,20 @@ const clearResults = () => {
           v-focus
           type="text"
           placeholder="Busque por uma cidade"
-          @keydown.enter="fetchAPI"
           class="rounded-lg p-2 text-black"
+          @keydown.enter="fetchAPI"
         />
         <button
-          @click="fetchAPI"
           class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
           title="Pesquisar"
+          @click="fetchAPI"
         >
           🔍
         </button>
         <button
-          @click="clearResults"
           class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
           title="Limpar"
+          @click="clearResults"
         >
           ❌
         </button>
@@ -181,6 +193,30 @@ const clearResults = () => {
         </div>
       </ul>
     </div>
+
+    <ul
+      v-if="results?.forecast"
+      :class="[backgroundCard, textColorCard]"
+      class="container flex flex-row flex-nowrap justify-start items-center gap-6 overflow-x-auto backdrop-blur-md p-8 rounded-xl"
+    >
+      <SVGComponent :src="IconClock">
+        <p>Horário</p>
+      </SVGComponent>
+
+      <div
+        v-for="(result, index) in results.forecast.forecastday[0].hour"
+        :key="index"
+        class="min-w-max flex gap-6"
+      >
+        <TextCardForecastComponent
+          :hour-day="formatDateAndTime(result.time)"
+          :description="translate(result.condition.text)"
+          :icon-weather="result.condition.icon"
+          :temperature="result.temp_c.toString()"
+          value-measure="°C"
+        />
+      </div>
+    </ul>
   </div>
 </template>
 

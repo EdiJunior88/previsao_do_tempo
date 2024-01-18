@@ -1,3 +1,20 @@
+export interface InterfaceForecastHour {
+  time: string
+  temp_c: number
+  condition: {
+    text: string
+    icon: string
+  }
+}
+
+export interface InterfaceForecastDay {
+  date: String
+  day: {
+    maxtemp_c: number
+  }
+  hour?: InterfaceForecastHour[]
+}
+
 export interface InterfaceIndex {
   value: string
   address: string
@@ -17,5 +34,8 @@ export interface InterfaceIndex {
   }
   location: {
     name: string
+  }
+  forecast: {
+    forecastday: InterfaceForecastDay[]
   }
 }
