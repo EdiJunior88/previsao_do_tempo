@@ -9,6 +9,7 @@ import IconThermalSensation from '@/assets/svg/sensacao-termica.svg'
 import IconHumidity from '@/assets/svg/umidade.svg'
 import IconVisibility from '@/assets/svg/umidade2.svg'
 import IconWindSpeed from '@/assets/svg/velocidade-vento.svg'
+import IconUV from '@/assets/svg/uv.svg'
 
 const inputTextCity = ref('')
 const results = ref<InterfaceIndex | null>(null)
@@ -48,7 +49,7 @@ const backgroundHour = () => {
 
   backgroundCard.value =
     hour >= 6 && hour <= 12
-      ? 'bg-blue-800/30'
+      ? 'bg-blue-800/50'
       : hour > 12 && hour <= 18
         ? 'bg-yellow-300/40'
         : 'bg-white/60'
@@ -69,11 +70,11 @@ const clearResults = () => {
 <template>
   <div
     :class="background"
-    class="w-full h-screen mx-auto flex flex-col justify-center items-center"
+    class="w-full min-h-screen h-auto flex flex-col justify-center items-center px-8"
   >
     <div
       :class="[backgroundCard, textColorCard]"
-      class="flex flex-col items-center justify-center gap-4 backdrop-blur-md py-8 px-16 rounded-xl"
+      class="flex flex-col items-center justify-center gap-4 backdrop-blur-md p-8 rounded-xl"
     >
       <p class="font-bold font-['system-ui'] text-3xl mb-6">Previsão do Tempo</p>
 
@@ -84,7 +85,7 @@ const clearResults = () => {
           type="text"
           placeholder="Busque por uma cidade"
           @keydown.enter="fetchAPI"
-          class="rounded-lg p-2"
+          class="rounded-lg p-2 text-black"
         />
         <button
           @click="fetchAPI"
@@ -109,7 +110,7 @@ const clearResults = () => {
       </div>
 
       <ul v-if="results" class="container">
-        <div class="grid grid-cols-3 items-center gap-6">
+        <div class="flex flex-row flex-wrap justify-center items-center gap-6">
           <SVGComponent :src="IconCity">
             <TextCardComponent text-card="Cidade" :value-card="results.location.name" />
           </SVGComponent>
@@ -146,7 +147,7 @@ const clearResults = () => {
             />
           </SVGComponent>
 
-          <SVGComponent :src="IconCity">
+          <SVGComponent :src="IconUV">
             <TextCardComponent
               text-card="UV"
               :value-card="results.current.uv.toString()"

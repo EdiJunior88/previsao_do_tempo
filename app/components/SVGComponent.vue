@@ -9,7 +9,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="w-full flex flex-col justify-center items-center">
+  <div class="w-28 flex flex-col justify-start items-center text-center">
     <img :src="src" alt="icon city" class="w-7 h-7 mb-2" />
     <slot />
   </div>
