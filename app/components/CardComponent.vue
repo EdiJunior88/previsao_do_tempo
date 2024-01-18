@@ -197,10 +197,13 @@ const formatDateAndTime = (isoString: string) => {
       </ul>
     </div>
 
-    <div :class="[backgroundCard, textColorCard]">
+    <div
+      :class="[backgroundCard, textColorCard]"
+      class="w-full max-w-screen-2xl backdrop-blur-md rounded-xl"
+    >
       <ul
         v-if="results?.forecast"
-        class="w-full max-w-screen-2xl flex flex-row flex-nowrap justify-start items-center gap-6 overflow-x-auto backdrop-blur-md p-8 rounded-xl"
+        class="flex flex-row flex-nowrap justify-start items-center gap-6 p-8 overflow-x-auto"
       >
         <SVGComponent :src="IconClock">
           <p>Horário</p>
