@@ -82,15 +82,15 @@ const formatDateAndTime = (isoString: string) => {
 <template>
   <div
     :class="background"
-    class="w-full min-h-screen h-auto flex flex-col justify-center items-center px-8"
+    class="w-full min-h-screen h-auto flex flex-col justify-center items-center sm:p-12 p-8"
   >
     <div
       :class="[backgroundCard, textColorCard]"
       class="w-full max-w-screen-2xl flex flex-col items-center justify-center gap-4 backdrop-blur-md p-8 rounded-xl"
     >
-      <p class="font-bold font-['system-ui'] text-3xl mb-6">Previsão do Tempo</p>
+      <p class="font-bold font-['system-ui'] text-3xl text-center mb-6">Previsão do Tempo</p>
 
-      <div class="flex gap-2 mb-6">
+      <div class="flex flex-col sm:flex-row gap-6 sm:gap-2 mb-6">
         <input
           v-model="inputTextCity"
           v-focus
@@ -99,20 +99,23 @@ const formatDateAndTime = (isoString: string) => {
           class="rounded-lg p-2 text-black"
           @keydown.enter="fetchAPI"
         />
-        <button
-          class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
-          title="Pesquisar"
-          @click="fetchAPI"
-        >
-          🔍
-        </button>
-        <button
-          class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
-          title="Limpar"
-          @click="clearResults"
-        >
-          ❌
-        </button>
+        
+        <div class="flex flex-row justify-center">
+          <button
+            class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
+            title="Pesquisar"
+            @click="fetchAPI"
+          >
+            🔍
+          </button>
+          <button
+            class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
+            title="Limpar"
+            @click="clearResults"
+          >
+            ❌
+          </button>
+        </div>
       </div>
 
       <div v-if="loading">Carregando...</div>
