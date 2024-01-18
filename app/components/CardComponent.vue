@@ -54,7 +54,7 @@ const backgroundHour = () => {
       ? 'bg-blue-800/50'
       : hour > 12 && hour <= 18
         ? 'bg-yellow-300/40'
-        : 'bg-white/60'
+        : 'bg-white/30'
 
   textColorCard.value =
     hour >= 6 && hour <= 12 ? 'text-white' : hour > 12 && hour <= 18 ? 'text-black' : 'text-white'
@@ -86,7 +86,7 @@ const formatDateAndTime = (isoString: string) => {
   >
     <div
       :class="[backgroundCard, textColorCard]"
-      class="flex flex-col items-center justify-center gap-4 backdrop-blur-md p-8 rounded-xl"
+      class="w-full max-w-screen-2xl flex flex-col items-center justify-center gap-4 backdrop-blur-md p-8 rounded-xl"
     >
       <p class="font-bold font-['system-ui'] text-3xl mb-6">Previsão do Tempo</p>
 
@@ -197,7 +197,7 @@ const formatDateAndTime = (isoString: string) => {
     <ul
       v-if="results?.forecast"
       :class="[backgroundCard, textColorCard]"
-      class="container flex flex-row flex-nowrap justify-start items-center gap-6 overflow-x-auto backdrop-blur-md p-8 rounded-xl"
+      class="w-full max-w-screen-2xl flex flex-row flex-nowrap justify-start items-center gap-6 overflow-x-auto backdrop-blur-md p-8 rounded-xl"
     >
       <SVGComponent :src="IconClock">
         <p>Horário</p>
@@ -206,7 +206,7 @@ const formatDateAndTime = (isoString: string) => {
       <div
         v-for="(result, index) in results.forecast.forecastday[0].hour"
         :key="index"
-        class="min-w-max flex gap-6"
+        class="min-w-max flex gap-6 scroll"
       >
         <TextCardForecastComponent
           :hour-day="formatDateAndTime(result.time)"
