@@ -99,7 +99,7 @@ const formatDateAndTime = (isoString: string) => {
           class="rounded-lg p-2 text-black"
           @keydown.enter="fetchAPI"
         />
-        
+
         <div class="flex flex-row justify-center">
           <button
             class="rounded-lg px-4 text-lg transition-transform duration-300 hover:bg-white hover:bg-opacity-50"
