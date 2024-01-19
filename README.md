@@ -37,13 +37,13 @@
   <table>
   <tr>
     <td>
-      <img src="./img-readme/Previsão-do-Tempo-mobile-manha.jpg" width="50%">
+      <img src="./img-readme/Previsão-do-Tempo-mobile-manha.jpg" width="65%">
     </td>
     <td>
-      <img src="./img-readme/Previsão-do-Tempo-mobile-tarde.jpg" width="50%">
+      <img src="./img-readme/Previsão-do-Tempo-mobile-tarde.jpg" width="65%">
     </td>
     <td>
-      <img src="./img-readme/Previsão-do-Tempo-mobile-noite.jpg" width="50%">
+      <img src="./img-readme/Previsão-do-Tempo-mobile-noite.jpg" width="65%">
     </td>
   </tr>
 </table>
@@ -73,11 +73,11 @@
 
 <hr>
 
-<hr>
-
 <h3>Status do Deploy</h3>
 
 <img src="https://therealsujitk-vercel-badge.vercel.app/?app=previsao-do-tempo-nuxt&style=plastic" alt="Vercel Deploy">
+
+<hr>
 
 <h3>Status da Issue</h3>
 
