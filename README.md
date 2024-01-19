@@ -21,7 +21,7 @@
 
 <hr>
 
-<strong>Link do projeto:</strong> <a href="https://previsao-do-tempo-3nvkav6cg-edijunior88.vercel.app/" target="_blank" >https://previsao-do-tempo-3nvkav6cg-edijunior88.vercel.app/</a>
+<strong>Link do projeto:</strong> <a href="https://previsao-do-tempo-nuxt.vercel.app/" target="_blank" >https://previsao-do-tempo-nuxt.vercel.app/</a>
 
 <hr>
 
