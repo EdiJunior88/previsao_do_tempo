@@ -121,9 +121,7 @@ const formatDateAndTime = (isoString: string) => {
       :class="[backgroundCard, textColorCard]"
       class="w-full max-w-screen-2xl flex flex-col items-center justify-center gap-4 backdrop-blur-md p-8 rounded-xl"
     >
-      <p class="font-bold font-['system-ui'] text-3xl text-center mb-6">
-        Previsão do Tempo
-      </p>
+      <p class="font-bold font-['system-ui'] text-3xl text-center mb-6">Previsão do Tempo</p>
 
       <div class="flex flex-col sm:flex-row gap-6 sm:gap-2 mb-6">
         <input
@@ -133,7 +131,7 @@ const formatDateAndTime = (isoString: string) => {
           placeholder="Busque por uma cidade"
           class="sm:w-72 rounded-lg p-2 text-black"
           @keydown.enter="fetchAPI"
-        >
+        />
 
         <div class="flex flex-row justify-center">
           <button
@@ -154,7 +152,7 @@ const formatDateAndTime = (isoString: string) => {
       </div>
 
       <div v-if="loading" class="-mt-6">
-        <img :src="LoadingAnimation" alt="loading animation">
+        <img :src="LoadingAnimation" alt="loading animation" />
       </div>
 
       <div v-if="errorMessage">
