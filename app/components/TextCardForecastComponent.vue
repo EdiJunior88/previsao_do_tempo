@@ -1,4 +1,6 @@
 <script setup lang="ts">
+// Define as propriedades (props) de um componente Vue.
+// Ele especifica os tipos, valores padrão e se as propriedades são obrigatórias ou não.
 defineProps({
   hourDay: {
     type: String,
@@ -30,16 +32,20 @@ defineProps({
 
 <template>
   <div>
-    <p class="font-normal text-sm text-center">{{ hourDay }}</p>
+    <p class="font-normal text-sm text-center">
+      {{ hourDay }}
+    </p>
 
     <div class="flex flex-col justify-center items-center text-center gap-2">
       <p>{{ description }}</p>
-      <img :src="iconWeather" alt="icon weather" />
+      <img :src="iconWeather" alt="icon weather">
     </div>
 
     <div class="flex flex-row justify-center items-baseline">
       <p>{{ temperature }}</p>
-      <p class="text-xs pl-1">{{ valueMeasure }}</p>
+      <p class="text-xs pl-1">
+        {{ valueMeasure }}
+      </p>
     </div>
   </div>
 </template>

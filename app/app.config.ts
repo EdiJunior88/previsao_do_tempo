@@ -3,7 +3,7 @@ export default defineAppConfig({
     mode: 'auto',
     debug: true,
     beforeSend: (event) => {
-      if (event.url.includes('/private')) return null
+      if (event.url.includes('/private')) { return null }
 
       return event
     }

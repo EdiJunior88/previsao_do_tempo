@@ -1,6 +1,9 @@
+// Dicionário de palavras para traduzir do Inglês para o Português
+// através dos dados da API
 const translationDictionary = {
   Sunny: 'Ensolarado',
   Clear: 'Céu limpo',
+  'Partly cloudy': 'Parcialmente nublado',
   Cloudy: 'Nublado',
   Overcast: 'Nublado',
   Mist: 'Névoa',
@@ -38,15 +41,24 @@ const translationDictionary = {
   'Torrential rain shower': 'Chuva torrencial',
   'Light sleet showers': 'Chuva leve com granizo',
   Moder: 'Moderado',
-  'Partly cloudy': 'Parcialmente nublado'
+  'Moderate or heavy sleet showers': 'Chuvas de granizo moderadas ou fortes',
+  'Light snow showers': 'Nevascas leves',
+  'Moderate or heavy snow showers': 'Chuvas de neve moderadas ou fortes',
+  'Light showers of ice pellets': 'Chuvas leves de bolinhas de gelo',
+  'Moderate or heavy showers of ice pellets': 'Chuvas moderadas ou fortes de bolinhas de gelo',
+  'Patchy light rain with thunder': 'Chuva fraca e irregular com trovões',
+  'Moderate or heavy rain with thunder': 'Chuva moderada ou fraca com trovões',
+  'Patchy light snow with thunder': 'Neve fraca ou moderada com trovões',
+  'Moderate or heavy snow with thunder': 'Neve moderada ou forte com trovões'
 }
 
+// Define um tipo que representa as chaves do objeto translationDictionary
 type translationDictionary = keyof typeof translationDictionary
 
 // Traduz o texto da condição usando o dicionário, se disponível.
 // Se não houver tradução, retorna o texto original.
-const translate = (conditionText: string) => {
-  return translationDictionary[conditionText as translationDictionary] || conditionText
+const translate = (conditionText: string): string => {
+  return translationDictionary[conditionText] || conditionText
 }
 
 export default translate

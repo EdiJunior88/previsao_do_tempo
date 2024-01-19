@@ -1,4 +1,6 @@
 <script setup lang="ts">
+// Define as propriedades (props) de um componente Vue.
+// Ele especifica os tipos, valores padrão e se as propriedades são obrigatórias ou não.
 defineProps({
   src: {
     type: String,
@@ -9,10 +11,8 @@ defineProps({
 </script>
 
 <template>
-  <div class="w-28 flex flex-col justify-start items-center text-center">
-    <img :src="src" alt="icon city" class="w-7 h-7 mb-2" />
+  <div class="flex flex-col justify-start items-center text-center">
+    <img :src="src" alt="icon city" class="w-7 h-7 mb-2">
     <slot />
   </div>
 </template>
-
-<style lang="css" scoped></style>

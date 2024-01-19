@@ -1,3 +1,4 @@
+// API de previsão do tempo
 import axios from 'axios'
 const apiWeather = async (value: string) => {
   const config = useRuntimeConfig()
