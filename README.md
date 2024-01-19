@@ -71,7 +71,6 @@
   </tr>
 </table>
 
-
 <hr>
 
 <hr>
@@ -93,8 +92,6 @@
 <hr>
 
 <h4><b>Status do projeto:</b> ✅ Concluído</h4>
-
-
 
 <a href="https://app.deepsource.com/gh/EdiJunior88/Previsao_do_Tempo/" target="_blank"><img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/EdiJunior88/Previsao_do_Tempo.svg/?label=resolved+issues&show_trend=true&token=L5Hr93aHR9nbRU5km9B0yCsb"/></a>
 
