@@ -197,29 +197,29 @@ const formatDateAndTime = (isoString: string) => {
       </ul>
     </div>
 
-    <ul
-      v-if="results?.forecast"
-      :class="[backgroundCard, textColorCard]"
-      class="w-full max-w-screen-2xl flex flex-row flex-nowrap justify-start items-center gap-6 overflow-x-auto backdrop-blur-md p-8 rounded-xl"
-    >
-      <SVGComponent :src="IconClock">
-        <p>Horário</p>
-      </SVGComponent>
-
-      <div
-        v-for="(result, index) in results.forecast.forecastday[0].hour"
-        :key="index"
-        class="min-w-max flex gap-6 scroll"
+    <div :class="[backgroundCard, textColorCard]">
+      <ul
+        v-if="results?.forecast"
+        class="w-full max-w-screen-2xl flex flex-row flex-nowrap justify-start items-center gap-6 overflow-x-auto backdrop-blur-md p-8 rounded-xl"
       >
-        <TextCardForecastComponent
-          :hour-day="formatDateAndTime(result.time)"
-          :description="translate(result.condition.text)"
-          :icon-weather="result.condition.icon"
-          :temperature="result.temp_c.toString()"
-          value-measure="°C"
-        />
-      </div>
-    </ul>
+        <SVGComponent :src="IconClock">
+          <p>Horário</p>
+        </SVGComponent>
+        <div
+          v-for="(result, index) in results.forecast.forecastday[0].hour"
+          :key="index"
+          class="min-w-max flex gap-6 scroll"
+        >
+          <TextCardForecastComponent
+            :hour-day="formatDateAndTime(result.time)"
+            :description="translate(result.condition.text)"
+            :icon-weather="result.condition.icon"
+            :temperature="result.temp_c.toString()"
+            value-measure="°C"
+          />
+        </div>
+      </ul>
+    </div>
   </div>
 </template>
 
