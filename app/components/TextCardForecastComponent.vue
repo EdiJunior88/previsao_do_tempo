@@ -38,7 +38,7 @@ defineProps({
 
     <div class="flex flex-col justify-center items-center text-center gap-2">
       <p>{{ description }}</p>
-      <img :src="iconWeather" alt="icon weather">
+      <img :src="iconWeather" alt="icon weather" />
     </div>
 
     <div class="flex flex-row justify-center items-baseline">
