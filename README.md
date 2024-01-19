@@ -60,7 +60,7 @@
     <td><img src="https://img.shields.io/badge/JavaScript-000.svg?logo=javascript&style=plastic" /></td>
     <td><img src="https://img.shields.io/badge/Vue.js-32475b.svg?logo=vue.js&style=plastic" /></td>
     <td><img src="https://img.shields.io/badge/Nuxt.js-2e475b.svg?logo=nuxt.js&style=plastic" /></td>
-  </td>
+  </tr>
   
   <tr>
     <td><img src="https://img.shields.io/badge/TailwindCSS-f7fafc.svg?logo=tailwindcss&style=plastic" /></td>
@@ -78,7 +78,11 @@
 
 <h3>Status do Deploy</h3>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/566b3b6b-c7da-44fd-8d08-fddbaa920e73/deploy-status)](https://app.netlify.com/sites/aluratube-v2/deploys)
+<img src="https://therealsujitk-vercel-badge.vercel.app/?app=previsao-do-tempo-nuxt&style=plastic" alt="Vercel Deploy">
+
+<h3>Status da Issue</h3>
+
+<a href="https://app.deepsource.com/gh/EdiJunior88/Previsao_do_Tempo/" target="_blank"><img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/EdiJunior88/Previsao_do_Tempo.svg/?label=resolved+issues&show_trend=true&token=L5Hr93aHR9nbRU5km9B0yCsb"/></a>
 
 <hr>
 
@@ -93,9 +97,3 @@
 <hr>
 
 <h4><b>Status do projeto:</b> ✅ Concluído</h4>
-
-
-
-<a href="https://app.deepsource.com/gh/EdiJunior88/Previsao_do_Tempo/" target="_blank"><img alt="DeepSource" title="DeepSource" src="https://app.deepsource.com/gh/EdiJunior88/Previsao_do_Tempo.svg/?label=resolved+issues&show_trend=true&token=L5Hr93aHR9nbRU5km9B0yCsb"/></a>
-
-<img src="https://therealsujitk-vercel-badge.vercel.app/?app=previsao-do-tempo-nuxt&style=plastic" alt="Vercel Deploy">
