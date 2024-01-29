@@ -2,19 +2,27 @@
 // através dos dados da API
 const translationDictionary = {
   Sunny: 'Ensolarado',
+  'Sunny ': 'Ensolarado',
   Clear: 'Céu limpo',
+  'Clear ': 'Céu limpo',
   'Partly cloudy': 'Parcialmente nublado',
   Cloudy: 'Nublado',
+  'Cloudy ': 'Nublado',
   Overcast: 'Nublado',
+  'Overcast ': 'Nublado',
   Mist: 'Névoa',
+  'Mist ': 'Névoa',
   'Patchy rain possible': 'Possibilidade de chuva irregular',
+  'Patchy rain nearby': 'Chuva irregular',
   'Patchy snow possible': 'Possibilidade de neve irregular',
   'Patchy sleet possible': 'Possibilidade de ganizo irregular',
   'Patchy freezing drizzle possible': 'Possibilidade de chuvisco gelado e irregular',
   'Thundery outbreaks possible': 'Possibilidade de trovoada',
   'Blowing snow': 'Caindo neve',
   Blizzard: 'Nevasca',
+  'Blizzard ': 'Nevasca',
   Fog: 'Nevoeiro',
+  'Fog ': 'Nevoeiro',
   'Freezing fog': 'Névoa congelante',
   'Patchy light drizzle': 'Possibilidade de garoa irregular',
   'Light drizzle': 'Garoa leve',
@@ -41,6 +49,7 @@ const translationDictionary = {
   'Torrential rain shower': 'Chuva torrencial',
   'Light sleet showers': 'Chuva leve com granizo',
   Moder: 'Moderado',
+  'Moder ': 'Moderado',
   'Moderate or heavy sleet showers': 'Chuvas de granizo moderadas ou fortes',
   'Light snow showers': 'Nevascas leves',
   'Moderate or heavy snow showers': 'Chuvas de neve moderadas ou fortes',
@@ -57,7 +66,7 @@ type translationDictionary = keyof typeof translationDictionary
 
 // Traduz o texto da condição usando o dicionário, se disponível.
 // Se não houver tradução, retorna o texto original.
-const translate = (conditionText: string): string => {
+const translate = (conditionText: translationDictionary): string => {
   return translationDictionary[conditionText] || conditionText
 }
 
