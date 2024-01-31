@@ -53,23 +53,19 @@
 
 <h3><strong>Tecnologias Utilizadas</strong></h3>
 
-<table>
-  <tr>
-    <td><img src="https://img.shields.io/badge/HTML5-ececec.svg?logo=html5&style=plastic" /></td>
-    <td><img src="https://img.shields.io/badge/CSS3-2572b6.svg?logo=css3&style=plastic" /></td>
-    <td><img src="https://img.shields.io/badge/JavaScript-000.svg?logo=javascript&style=plastic" /></td>
-    <td><img src="https://img.shields.io/badge/Vue.js-32475b.svg?logo=vue.js&style=plastic" /></td>
-    <td><img src="https://img.shields.io/badge/Nuxt.js-2e475b.svg?logo=nuxt.js&style=plastic" /></td>
-  </tr>
-  
-  <tr>
-    <td><img src="https://img.shields.io/badge/TailwindCSS-f7fafc.svg?logo=tailwindcss&style=plastic" /></td>
-    <td><img src="https://img.shields.io/badge/Vercel-000.svg?logo=vercel&style=plastic" /></td>
-    <td><img src="https://img.shields.io/badge/Visual Studio Code-007acc.svg?logo=visual-studio-code&style=plastic" /></td>
-    <td><img src="https://img.shields.io/badge/Windows-0078d6.svg?logo=windows&style=plastic" /></td>
-    <td><img src="https://img.shields.io/badge/npm-cb3837.svg?logo=npm&style=plastic" /></td>
-  </tr>
-</table>
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1612/bynNY5dJ.jpg' alt='TypeScript'/> [TypeScript](http://www.typescriptlang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'/> [Autoprefixer](https://github.com/postcss/autoprefixer) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/3337/Q4L7Jncy.jpg' alt='ESLint'/> [ESLint](http://eslint.org/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/3339/rlFcjEdI.png' alt='PostCSS'/> [PostCSS](https://github.com/postcss/postcss) – CSS Pre-processors / Extensions
+- <img width='25' height='25' src='https://img.stackshare.io/service/3837/paeckCWC.png' alt='Vue.js'/> [Vue.js](http://vuejs.org/) – Javascript UI Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/no-img-open-source.png' alt='axios'/> [axios](https://github.com/mzabriskie/axios) – Javascript Utilities & Libraries
+- <img width='25' height='25' src='https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg' alt='Prettier'/> [Prettier](https://prettier.io/) – Code Review
+- <img width='25' height='25' src='https://img.stackshare.io/service/7304/23360933.png' alt='Nuxt.js'/> [Nuxt.js](https://nuxtjs.org) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png' alt='Tailwind CSS'/> [Tailwind CSS](https://tailwindcss.com) – Front-End Frameworks
+- <img width='25' height='25' src='https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png' alt='Vercel AI SDK'/> [Vercel AI SDK](https://sdk.vercel.ai/docs) – Large Language Model Tools
+
+Para ver todas as tecnologias [clique aqui](/techstack.md)
 
 <hr>
 
