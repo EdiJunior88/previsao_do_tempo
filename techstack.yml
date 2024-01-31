@@ -1,0 +1,351 @@
+repo_name: EdiJunior88/Previsao_do_Tempo
+report_id: 1ebd6062c367700b70029d790e8a6ec8
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T14:32:40+00:00'
+requested_by: EdiJunior88
+provider: github
+branch: main
+detected_tools_count: 26
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-21 12:53:34.000000000 Z
+- name: Nuxt.js
+  description: The Vue.js Framework
+  website_url: https://nuxtjs.org
+  version: 3.9.3
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/7304/23360933.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-14 16:05:57.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-14 16:05:57.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.4.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-14 16:05:57.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package.json
+  detection_source: app/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 13:31:25.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/.eslintrc
+  detection_source: app/.eslintrc
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo
+  detection_source: Repo Metadata
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-14 16:05:57.000000000 Z
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  version: 1.1.2
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-21 12:53:34.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.6.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 03:25:33.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 6.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 6.19.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: "@vercel/analytics"
+  description: Gain real-time traffic insights with Vercel Web Analytics
+  package_url: https://www.npmjs.com/@vercel/analytics
+  version: 1.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-21 12:53:34.000000000 Z
+- name: "@vue/eslint-config-standard"
+  description: Eslint-config-standard for Vue CLI
+  package_url: https://www.npmjs.com/@vue/eslint-config-standard
+  version: 8.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16540/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 5.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: eslint-plugin-vue
+  description: Official ESLint plugin for Vue.js
+  package_url: https://www.npmjs.com/eslint-plugin-vue
+  version: 9.20.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15950/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: npm-check-updates
+  description: Find newer versions of dependencies than what your package.json or
+    bower.json allows
+  package_url: https://www.npmjs.com/npm-check-updates
+  version: 16.14.14
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16610/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-01-29 03:26:02.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-16 00:56:24.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.4.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-14 16:05:57.000000000 Z
+- name: vue-router
+  description: Official router for Vue.js 2
+  package_url: https://www.npmjs.com/vue-router
+  version: 4.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15969/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/EdiJunior88/Previsao_do_Tempo/blob/main/app/package-lock.json
+  detection_source: app/package.json
+  last_updated_by: EdiJunior88
+  last_updated_on: 2024-01-14 16:05:57.000000000 Z
