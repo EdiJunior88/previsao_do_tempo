@@ -42,13 +42,16 @@ Full tech stack [here](/techstack.md)
 <div align="center">
 
 # Tech Stack File
+
 ![](https://img.stackshare.io/repo.svg "repo") [EdiJunior88/Previsao_do_Tempo](https://github.com/EdiJunior88/Previsao_do_Tempo)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
 |26<br/>Tools used|02/04/24 <br/>Report generated|
 |------|------|
+
 </div>
 
 ## <img src='https://img.stackshare.io/languages.svg'/> Languages (3)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/6727/css.png' alt='CSS 3'>
@@ -78,6 +81,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/frameworks.svg'/> Frameworks (5)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png' alt='Autoprefixer'>
@@ -123,6 +127,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## <img src='https://img.stackshare.io/devops.svg'/> DevOps (5)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png' alt='Dotenv'>
@@ -168,6 +173,7 @@ Full tech stack [here](/techstack.md)
 </table>
 
 ## Other (2)
+
 <table><tr>
   <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png' alt='Vercel AI SDK'>
@@ -188,24 +194,23 @@ Full tech stack [here](/techstack.md)
 </tr>
 </table>
 
-
 ## <img src='https://img.stackshare.io/group.svg' /> Open source packages (11)</h2>
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (11)
 
-|NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
-|:------|:------|:------|:------|:------|:------|
-|[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v6.19.1|01/16/24|EdiJunior88 |MIT|N/A|
-|[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v6.19.1|01/16/24|EdiJunior88 |BSD-2-Clause|N/A|
-|[@vercel/analytics](https://www.npmjs.com/@vercel/analytics)|v1.1.2|01/21/24|EdiJunior88 |N/A|N/A|
-|[@vue/eslint-config-standard](https://www.npmjs.com/@vue/eslint-config-standard)|v8.0.1|01/16/24|EdiJunior88 |MIT|N/A|
-|[eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)|v9.1.0|01/16/24|EdiJunior88 |MIT|N/A|
-|[eslint-plugin-prettier](https://www.npmjs.com/eslint-plugin-prettier)|v5.1.3|01/16/24|EdiJunior88 |MIT|N/A|
-|[eslint-plugin-vue](https://www.npmjs.com/eslint-plugin-vue)|v9.20.1|01/16/24|EdiJunior88 |MIT|N/A|
-|[npm-check-updates](https://www.npmjs.com/npm-check-updates)|v16.14.14|01/29/24|dependabot[bot] |Apache-2.0|N/A|
-|[tailwindcss](https://www.npmjs.com/tailwindcss)|v3.4.1|01/16/24|EdiJunior88 |MIT|N/A|
-|[vue](https://www.npmjs.com/vue)|v3.4.15|01/14/24|EdiJunior88 |MIT|N/A|
-|[vue-router](https://www.npmjs.com/vue-router)|v4.2.5|01/14/24|EdiJunior88 |MIT|N/A|
+| NAME                                                                                       | VERSION   | LAST UPDATED | LAST UPDATED BY | LICENSE      | VULNERABILITIES |
+| :----------------------------------------------------------------------------------------- | :-------- | :----------- | :-------------- | :----------- | :-------------- |
+| [@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin) | v6.19.1   | 01/16/24     | EdiJunior88     | MIT          | N/A             |
+| [@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)               | v6.19.1   | 01/16/24     | EdiJunior88     | BSD-2-Clause | N/A             |
+| [@vercel/analytics](https://www.npmjs.com/@vercel/analytics)                               | v1.1.2    | 01/21/24     | EdiJunior88     | N/A          | N/A             |
+| [@vue/eslint-config-standard](https://www.npmjs.com/@vue/eslint-config-standard)           | v8.0.1    | 01/16/24     | EdiJunior88     | MIT          | N/A             |
+| [eslint-config-prettier](https://www.npmjs.com/eslint-config-prettier)                     | v9.1.0    | 01/16/24     | EdiJunior88     | MIT          | N/A             |
+| [eslint-plugin-prettier](https://www.npmjs.com/eslint-plugin-prettier)                     | v5.1.3    | 01/16/24     | EdiJunior88     | MIT          | N/A             |
+| [eslint-plugin-vue](https://www.npmjs.com/eslint-plugin-vue)                               | v9.20.1   | 01/16/24     | EdiJunior88     | MIT          | N/A             |
+| [npm-check-updates](https://www.npmjs.com/npm-check-updates)                               | v16.14.14 | 01/29/24     | dependabot[bot] | Apache-2.0   | N/A             |
+| [tailwindcss](https://www.npmjs.com/tailwindcss)                                           | v3.4.1    | 01/16/24     | EdiJunior88     | MIT          | N/A             |
+| [vue](https://www.npmjs.com/vue)                                                           | v3.4.15   | 01/14/24     | EdiJunior88     | MIT          | N/A             |
+| [vue-router](https://www.npmjs.com/vue-router)                                             | v4.2.5    | 01/14/24     | EdiJunior88     | MIT          | N/A             |
 
 <br/>
 <div align='center'>
