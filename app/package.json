@@ -22,7 +22,7 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "eslint-plugin-prettier": "^5.2.1",
-    "nuxt": "^3.12.4",
+    "nuxt": "^3.14.1592",
     "eslint-plugin-vue": "^9.28.0",
     "nuxt-vercel-analytics": "^1.0.3",
     "postcss": "^8.4.49",
